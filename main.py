@@ -90,10 +90,10 @@ def main():
     plt.imshow(img, cmap="gray"); plt.title("Original"); plt.axis('off'); plt.show()
 
     # Pad original image
-    padded_img = ImageUtils.pad_before_dft(img)
-    print("Padded original image shape", padded_img.shape)
-    plt.imshow(padded_img, cmap="gray"); plt.title("Padded Original Image"); plt.axis('off')
-    plt.savefig(f"Images/Padded_Original_Image.tiff"); plt.show()
+    # padded_img = ImageUtils.pad_before_dft(img)
+    # print("Padded original image shape", padded_img.shape)
+    # plt.imshow(padded_img, cmap="gray"); plt.title("Padded Original Image"); plt.axis('off')
+    # plt.savefig(f"Images/Padded_Original_Image.tiff"); plt.show()
 
     # Build model
     destruction_list = [ # T, a, b
